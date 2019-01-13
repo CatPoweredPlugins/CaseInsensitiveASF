@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryzhehvost.CaseInsensitiveASF", "Ryzhehvost.CaseInsensitiveASF\Ryzhehvost.CaseInsensitiveASF.csproj", "{8026B261-F883-4BED-976A-4E2140942610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchiSteamFarm", "ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj", "{CDCA6F25-8860-4F72-91D1-F1F473732C1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8026B261-F883-4BED-976A-4E2140942610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8026B261-F883-4BED-976A-4E2140942610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8026B261-F883-4BED-976A-4E2140942610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8026B261-F883-4BED-976A-4E2140942610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCA6F25-8860-4F72-91D1-F1F473732C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCA6F25-8860-4F72-91D1-F1F473732C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCA6F25-8860-4F72-91D1-F1F473732C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCA6F25-8860-4F72-91D1-F1F473732C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15C1EB18-5C4D-4E01-9C86-123FA4F56B9A}
+	EndGlobalSection
+EndGlobal
