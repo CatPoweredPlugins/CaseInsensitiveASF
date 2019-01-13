@@ -13,7 +13,7 @@ namespace Ryzhehvost.CaseInsensitiveASF {
 			ASF.ArchiLogger.LogGenericInfo("Case Insensitive ASF Plugin by Ryzhehvost, powered by ginger cats");
 		}
 
-		public StringComparer BotsComparer => StringComparer.InvariantCultureIgnoreCase;
+		public StringComparer BotsComparer => StringComparer.OrdinalIgnoreCase;
 
 	}
 }
