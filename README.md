@@ -1,4 +1,4 @@
-# ASF Case Insensitive Bot Names Plugin
+п»ї# ASF Case Insensitive Bot Names Plugin
 Plugin for [ASF](https://github.com/JustArchiNET/ArchiSteamFarm/) that makes bot names case-insensitive, so you can use `BotName`, `botname`, and `BoTnAmE` to refer to your bot. Also works for regular expressions in bot names.
 Make sure you don't have multiple bots with names that differ only by case (only applicable to case-sensitive file systems of course). If you have two files `BotName.json` and `botname.json` in your config folder - you are guaranteed to have troubles.
 Works only with ASF 4.0+
@@ -8,12 +8,12 @@ To use:
 - (re)start ASF, you should get a message indicating that plugin loaded successfully. 
 
 
-# Плагин для ASF чтобы сделать имена файлов регистронезависимыми
-Этот плагин для [ASF](https://github.com/JustArchiNET/ArchiSteamFarm/) позволяет сделать имена ботов регистронезависимыми, так что имена `BotName`, `botname`, и `BoTnAmE` будут указывать на одного бота. Работает также для регулярных выражений в именах ботов.
-Убедитесь, что у вас нет нескольких ботов, имена которых отличаются только регистром (разумеется, это возможно тольков случае регистрозависимой файловой системы). Если у вас в папке config есть два файла `BotName.json` и `botname.json` - у вас гарантированно будут проблемы.
-Работает только в ASF 4.0+
-Для установки:
-- скачайте файл .zip из [последнего релиза](https://github.com/Ryzhehvost/Case-Insensitive-ASF/releases/latest), в большинстве случаев вам нужен файл `CaseInsensitiveASF.zip`, не если вы по какой-то причине пользуетесь ASF-generic-netf.zip (а для этого нужны веские причины) - скачайте `CaseInsensitiveASF-netf.zip`.
-- распакуйте скачанный файл .zip в папку `plugins` внутри вашей папки с ASF.
-- (пере)запустите ASF, вы должны получить сообщение что плагин успешно загружен. 
+# РџР»Р°РіРёРЅ РґР»СЏ ASF С‡С‚РѕР±С‹ СЃРґРµР»Р°С‚СЊ РёРјРµРЅР° С„Р°Р№Р»РѕРІ СЂРµРіРёСЃС‚СЂРѕРЅРµР·Р°РІРёСЃРёРјС‹РјРё
+Р­С‚РѕС‚ РїР»Р°РіРёРЅ РґР»СЏ [ASF](https://github.com/JustArchiNET/ArchiSteamFarm/) РїРѕР·РІРѕР»СЏРµС‚ СЃРґРµР»Р°С‚СЊ РёРјРµРЅР° Р±РѕС‚РѕРІ СЂРµРіРёСЃС‚СЂРѕРЅРµР·Р°РІРёСЃРёРјС‹РјРё, С‚Р°Рє С‡С‚Рѕ РёРјРµРЅР° `BotName`, `botname`, Рё `BoTnAmE` Р±СѓРґСѓС‚ СѓРєР°Р·С‹РІР°С‚СЊ РЅР° РѕРґРЅРѕРіРѕ Р±РѕС‚Р°. Р Р°Р±РѕС‚Р°РµС‚ С‚Р°РєР¶Рµ РґР»СЏ СЂРµРіСѓР»СЏСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёР№ РІ РёРјРµРЅР°С… Р±РѕС‚РѕРІ.
+РЈР±РµРґРёС‚РµСЃСЊ, С‡С‚Рѕ Сѓ РІР°СЃ РЅРµС‚ РЅРµСЃРєРѕР»СЊРєРёС… Р±РѕС‚РѕРІ, РёРјРµРЅР° РєРѕС‚РѕСЂС‹С… РѕС‚Р»РёС‡Р°СЋС‚СЃСЏ С‚РѕР»СЊРєРѕ СЂРµРіРёСЃС‚СЂРѕРј (СЂР°Р·СѓРјРµРµС‚СЃСЏ, СЌС‚Рѕ РІРѕР·РјРѕР¶РЅРѕ С‚РѕР»СЊРєРѕРІ СЃР»СѓС‡Р°Рµ СЂРµРіРёСЃС‚СЂРѕР·Р°РІРёСЃРёРјРѕР№ С„Р°Р№Р»РѕРІРѕР№ СЃРёСЃС‚РµРјС‹). Р•СЃР»Рё Сѓ РІР°СЃ РІ РїР°РїРєРµ config РµСЃС‚СЊ РґРІР° С„Р°Р№Р»Р° `BotName.json` Рё `botname.json` - Сѓ РІР°СЃ РіР°СЂР°РЅС‚РёСЂРѕРІР°РЅРЅРѕ Р±СѓРґСѓС‚ РїСЂРѕР±Р»РµРјС‹.
+Р Р°Р±РѕС‚Р°РµС‚ С‚РѕР»СЊРєРѕ РІ ASF 4.0+
+Р”Р»СЏ СѓСЃС‚Р°РЅРѕРІРєРё:
+- СЃРєР°С‡Р°Р№С‚Рµ С„Р°Р№Р» .zip РёР· [РїРѕСЃР»РµРґРЅРµРіРѕ СЂРµР»РёР·Р°](https://github.com/Ryzhehvost/Case-Insensitive-ASF/releases/latest), РІ Р±РѕР»СЊС€РёРЅСЃС‚РІРµ СЃР»СѓС‡Р°РµРІ РІР°Рј РЅСѓР¶РµРЅ С„Р°Р№Р» `CaseInsensitiveASF.zip`, РЅРµ РµСЃР»Рё РІС‹ РїРѕ РєР°РєРѕР№-С‚Рѕ РїСЂРёС‡РёРЅРµ РїРѕР»СЊР·СѓРµС‚РµСЃСЊ ASF-generic-netf.zip (Р° РґР»СЏ СЌС‚РѕРіРѕ РЅСѓР¶РЅС‹ РІРµСЃРєРёРµ РїСЂРёС‡РёРЅС‹) - СЃРєР°С‡Р°Р№С‚Рµ `CaseInsensitiveASF-netf.zip`.
+- СЂР°СЃРїР°РєСѓР№С‚Рµ СЃРєР°С‡Р°РЅРЅС‹Р№ С„Р°Р№Р» .zip РІ РїР°РїРєСѓ `plugins` РІРЅСѓС‚СЂРё РІР°С€РµР№ РїР°РїРєРё СЃ ASF.
+- (РїРµСЂРµ)Р·Р°РїСѓСЃС‚РёС‚Рµ ASF, РІС‹ РґРѕР»Р¶РЅС‹ РїРѕР»СѓС‡РёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ С‡С‚Рѕ РїР»Р°РіРёРЅ СѓСЃРїРµС€РЅРѕ Р·Р°РіСЂСѓР¶РµРЅ. 
 
