@@ -1,4 +1,4 @@
-﻿# ASF Case Insensitive Bot Names Plugin
+# ASF Case Insensitive Bot Names Plugin
 Plugin for [ASF](https://github.com/JustArchiNET/ArchiSteamFarm/) that makes bot names case-insensitive, so you can use `BotName`, `botname`, and `BoTnAmE` to refer to your bot. Also works for regular expressions in bot names.
 Make sure you don't have multiple bots with names that differ only by case (only applicable to case-sensitive file systems of course). If you have two files `BotName.json` and `botname.json` in your config folder - you are guaranteed to have troubles.
 Works only with ASF 4.0+
@@ -16,4 +16,6 @@ To use:
 - скачайте файл .zip из [последнего релиза](https://github.com/Ryzhehvost/Case-Insensitive-ASF/releases/latest), в большинстве случаев вам нужен файл `CaseInsensitiveASF.zip`, не если вы по какой-то причине пользуетесь ASF-generic-netf.zip (а для этого нужны веские причины) - скачайте `CaseInsensitiveASF-netf.zip`.
 - распакуйте скачанный файл .zip в папку `plugins` внутри вашей папки с ASF.
 - (пере)запустите ASF, вы должны получить сообщение что плагин успешно загружен. 
+
+![downloads](https://img.shields.io/github/downloads/Ryzhehvost/Case-Insensitive-ASF/total.svg?style=social)
 
