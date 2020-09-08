@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryzhehvost.CaseInsensitiveASF", "Ryzhehvost.CaseInsensitiveASF\Ryzhehvost.CaseInsensitiveASF.csproj", "{8026B261-F883-4BED-976A-4E2140942610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case-Insensitive-ASF", "CaseInsensitiveASF\Case-Insensitive-ASF.csproj", "{8026B261-F883-4BED-976A-4E2140942610}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchiSteamFarm", "ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj", "{CDCA6F25-8860-4F72-91D1-F1F473732C1E}"
 EndProject

@@ -4,6 +4,8 @@
     <Authors>Ryzhehvost</Authors>
     <AssemblyVersion>0.2</AssemblyVersion>
     <TargetFrameworks>netcoreapp3.1;net48</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,9 +15,5 @@
   <ItemGroup>
     <ProjectReference Include="..\ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj" />
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="mkdir $(TargetDir)CaseInsensitiveASF&#xD;&#xA;copy $(TargetPath) $(TargetDir)CaseInsensitiveASF\&#xD;&#xA;7z a -tzip -mx7  CaseInsensitiveASF.zip $(TargetDir)CaseInsensitiveASF" />
-  </Target>
 
 </Project>
