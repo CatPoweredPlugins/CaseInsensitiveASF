@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Composition;
-using ArchiSteamFarm;
-using ArchiSteamFarm.Plugins;
+using ArchiSteamFarm.Core;
+using ArchiSteamFarm.Plugins.Interfaces;
 
 namespace Ryzhehvost.CaseInsensitiveASF {
 	[Export(typeof(IPlugin))]
